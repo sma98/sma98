@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 function Menu({ toggleMenu }) {
   return (
     <>
- 
-      <a onClick={toggleMenu}>Menu</a>
-      <img src="/menu.jpg" alt="Menu" />
+   <a onClick={toggleMenu} className="menu-link">
+     
+        Menu
+        <img src="/public/images/menu.png" alt="enu" />
+      </a>
       <ul>
         <li>
           <Link to='/Ml'>Ml</Link>
