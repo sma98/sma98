@@ -13,9 +13,12 @@ function App() {
       <div id="wrapper">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Ml />} />
-          <Route path="game" element={<Game />} />
-          <Route path="about" element={<About />} />
+          
+        <Route path="" element={<App/>} />
+          
+          <Route path="/ml" element={<Ml/>} />
+          <Route path="/game" element={<Game/>} />
+          <Route path="sma98/about" element={<About/>} />
         </Routes>
       </div>
     </Router>

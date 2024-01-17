@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from "react-router-dom";
+ import React, { useState } from 'react';
+// import { Link } from "react-router-dom";
 import Menu from './Menu';
 import './style/Navbar.css'
 
@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <nav className="nav">
-      <a href='/' className='site-title'>Sma98</a>
+      <a href='/sma98' className='site-title'>Sma98</a>
       <ul>
         <Menu toggleMenu={toggleMenu} />
         </ul>

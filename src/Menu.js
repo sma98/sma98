@@ -4,20 +4,20 @@ import { Link } from "react-router-dom";
 function Menu({ toggleMenu }) {
   return (
     <>
-   <a onClick={toggleMenu} className="menu-link">
-     
+      {/* eslint-disable-next-line */}
+      <a onClick={toggleMenu} className="menu-link">
         Menu
-        <img src="/public/images/menu.png" alt="enu" />
+        <img src="sma98/assests/s.png" alt="Menu" />
       </a>
       <ul>
         <li>
-          <Link to='/Ml'>Ml</Link>
+          <Link to='/ml'>Ml</Link>
         </li>
         <li>
-          <Link to='/Game'>Game</Link>
+          <Link to='/game'>Game</Link>
         </li>
         <li>
-          <Link to='/About'>About</Link>
+          <Link to='sma98/about'>About</Link>
         </li>
       </ul>
     </>
